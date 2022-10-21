@@ -9,19 +9,22 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 .logo{
-    font-size: 24px;
+    display: flex;
+    font-size: 19px;
     font-weight: 900;
+    margin-top: 13px;
+    margin-bottom: 13px;
     color: #f9faf8;
 }
-ul{
+.header-link{
     display: flex;
     justify-content: space-between;
     list-style: none;
     gap: 10px;
-    font-size: 18px;
+    font-size: 13px;
     color: #e5e7eb;
 }
 a{
@@ -42,15 +45,45 @@ a{
     align-items: center;
 }
 .main-text{
-    font-size: 48px;
+    font-size: 43px;
     font-weight: 900;
     color: #f9faf8;
 }
 .secondary-text{
-    font-size: 18px;
+    font-size: 13px;
     color: #e5e7eb;
 }
 button{
     background-color: #3882f6;
     border-radius: 5px;
+    border-style: none;
+}
+.info{
+    text-align: center;
+    font-size: 31px;
+    font-weight: 900;
+    color: #1f2937;
+}
+.images{
+    display: flex;
+    font-size: 13px;
+    font-weight: 100;
+    justify-content: center;
+    height: 200px;
+    gap: 20px;
+}
+li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 112px;
+    flex: initial;
+}
+.info-image{
+    border-radius: 15px;
+    border-color: #3882f6;
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+    padding: 3px;
 }
