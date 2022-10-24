@@ -57,6 +57,7 @@ button{
     background-color: #3882f6;
     border-radius: 5px;
     border-style: none;
+    color: #e5e7eb;
 }
 .info{
     text-align: center;
@@ -97,4 +98,23 @@ li{
     display: flex;
     justify-content: end;
     font-weight: bolder;
+}
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 50px;
+    padding: 25px 50px;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
+.call-to-action{
+    font-size: 13px;
+}
+.call{
+    border-style: solid;
+    border-color: #e5e7eb;
+    width: 100px;
+    height: 25px;
 }
