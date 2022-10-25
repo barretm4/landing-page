@@ -13,11 +13,8 @@ body{
 }
 .logo{
     display: flex;
-    font-size: 19px;
-    font-weight: 900;
     margin-top: 13px;
     margin-bottom: 13px;
-    color: #f9faf8;
 }
 .header-link{
     display: flex;
