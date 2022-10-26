@@ -18,10 +18,10 @@ body{
 }
 .header-link{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style: none;
     gap: 10px;
-    font-size: 13px;
+    font-size: 18px;
     color: #e5e7eb;
 }
 a{
@@ -42,12 +42,12 @@ a{
     align-items: center;
 }
 .main-text{
-    font-size: 43px;
+    font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
 }
 .secondary-text{
-    font-size: 13px;
+    font-size: 18px;
     color: #e5e7eb;
 }
 button{
@@ -58,19 +58,19 @@ button{
 }
 .info{
     text-align: center;
-    font-size: 31px;
+    font-size: 36px;
     font-weight: 900;
     color: #1f2937;
 }
 .images{
     display: flex;
-    font-size: 13px;
+    font-size: 18px;
     font-weight: 100;
     justify-content: center;
     height: 200px;
     gap: 20px;
 }
-li{
+.images-child{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,7 +87,7 @@ li{
 }
 .quote{
     background-color: #e5e7eb;
-    font-size: 19px;
+    font-size: 36px;
     font-style: italic;
     padding: 50px 100px;
 }
@@ -107,7 +107,7 @@ li{
     color: #e5e7eb;
 }
 .call-to-action{
-    font-size: 13px;
+    font-size: 18px;
 }
 .call{
     border-style: solid;
@@ -121,7 +121,7 @@ li{
     justify-content: center;
     background-color: #1F2937;
     color:#e5e7eb;
-    font-size: 13px;
+    font-size: 18px;
     padding-top: 25px;
     padding-bottom: 25px;
 }
