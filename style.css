@@ -3,8 +3,8 @@ body{
 }
 .banner{
     background-color: #1F2937;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 .header{
     display: flex;
@@ -20,8 +20,9 @@ body{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    gap: 10px;
+    gap: 20px;
     font-size: 18px;
+    font-weight: 200;
     color: #e5e7eb;
 }
 a{
@@ -30,7 +31,6 @@ a{
 }
 .hero{
     display: flex;
-    padding-top: 50px;
     padding-bottom: 50px;
     gap: 30px;
     justify-content: space-between;
@@ -43,8 +43,9 @@ a{
 }
 .main-text{
     font-size: 48px;
-    font-weight: 900;
+    font-weight: bolder;
     color: #f9faf8;
+    padding-top: 50px;
 }
 .secondary-text{
     font-size: 18px;
@@ -52,7 +53,11 @@ a{
 }
 button{
     background-color: #3882f6;
-    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 8px 30px;
     border-style: none;
     color: #e5e7eb;
 }
@@ -112,8 +117,6 @@ button{
 .call{
     border-style: solid;
     border-color: #e5e7eb;
-    width: 100px;
-    height: 25px;
 }
 .footer{
     display: flex;
